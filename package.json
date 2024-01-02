@@ -1,0 +1,25 @@
+{
+    "name": "aichat-bot",
+    "version": "1.0.0",
+    "description": "A Discord bot for ai chat and image2text.",
+    "main": "index.js",
+    "scripts": {
+        "start": "node index.js"
+    },
+    "keywords": [
+        "discord-bot",
+        "ai",
+        "chat-gpt",
+        "openai",
+        "chatbot",
+        "hercai"
+    ],
+    "author": "Wick",
+    "license": "MIT",
+    "dependencies": {
+        "discord.js": "^14.14.1",
+        "hercai": "^11.1.3",
+        "node-fetch": "^2.6.1",
+        "tesseract.js": "^5.0.4"
+    }
+}
